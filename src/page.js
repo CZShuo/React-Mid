@@ -4,8 +4,6 @@ import {Link} from 'react-router-dom';
 
 const Page = props => {
     let {data} = props;
-    let {page} = props;
-
     return (
         <div>
             <ul>
@@ -21,7 +19,6 @@ const Page = props => {
 }
 
 Page.proptypes={
-    page:PropTypes.string.isRequired,
     data:PropTypes.object.isRequired
 }
 
