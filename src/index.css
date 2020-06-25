@@ -1,0 +1,46 @@
+#root{
+    width: 500px;
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav>a{
+    text-decoration: none;
+    color: rgb(25, 159, 221);
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav>a:hover{
+    color: crimson;
+}
+
+.content{
+    font-size: 25px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.content>ul{
+    height:150px;
+}
+.content>ul li{
+    list-style-type:upper-roman;
+}
+.content>a{
+    text-decoration: none;
+    color: rgb(25, 159, 221);
+    font-weight: bold;
+    font-size: 18px;
+}
+.content>a:hover{
+    color: crimson;
+}

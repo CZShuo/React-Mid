@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Nav from './nav';
 import Page from './page';
+import './index.css';
 
 class Main extends React.Component{
     state ={

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const Nav = props =>{
     let {data}= props;
     return (
-        <div>
+        <div className="nav">
             {data.map((item, index) =>{
                 return (
                     <Link key={index} to={`/${item.key}`}>

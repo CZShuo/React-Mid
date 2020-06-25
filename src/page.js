@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const Page = props => {
     let {data} = props;
     return (
-        <div>
+        <div className="content">
             <ul>
                 {data.sections.map((section, index) =>
                     <li key={index}>{section}</li>
