@@ -23,7 +23,7 @@ class Main extends React.Component{
         }
         return (
             <Router>
-                <Nav />
+                <Nav data={this.state.data.chapters} />
                 <Switch>
                     <Route path="/" exact render={() =>
                         (<h1>{this.state.data.headline}</h1>)
